@@ -5,7 +5,12 @@
     <profiles>
         <profile>
             <id>heroku</id>
+        </profile>
+        <profile>
             <id>postgres</id>
+        </profile>
+        <profile>
+            <id>servet</id>
         </profile>
     </profiles>
 </profilesXml>
