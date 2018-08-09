@@ -419,7 +419,7 @@
                 mauris.
             </p><!-- /.section-description -->
 
-            <form id="contact-form" action="Test" method="get" class="clearfix">
+            <form id="contact-form" action="Test" method="post" class="clearfix">
                 <div class="contact-box-hide">
                     <div class="col-sm-6">
                         <input type="text" class="form-control" id="first_name" name="first_name" required
