@@ -11,7 +11,7 @@ public class TestServlet extends javax.servlet.http.HttpServlet {
     protected void doGet(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
         Writer writer = response.getWriter();
         writer.append("<h1>PAMPAM</h1>");
-        writer.append(" "+request.getAttribute("first_name")+" "+request.getAttribute("last_name"));
+        writer.append(" "+request.getParameter("first_name")+" "+request.getAttribute("last_name"));
 
 
 //       request.getRequestDispatcher("index.jsp");
